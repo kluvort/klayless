@@ -1,0 +1,309 @@
+<!doctype html> 
+<html>
+<head>
+<title>Marketplace</title>
+      <meta charset="UTC-8">
+      <title> Sivusto</title>
+      <link rel="stylesheet" href="style.css">
+      <meta name="keywords" content="Marketplace"> 
+      <meta name="author" content="klu">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <link href="https://fonts.google.com/share?selection.family=Rubik:wght@300;400;500;600;700"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+ 
+<style>
+
+</style>
+
+</head>
+
+<body>
+
+    <div class="header">
+
+    <div class="container">
+        <div class="klay">
+            <div class="logo">
+                <img src="Images/elixi.png" width="125px">
+    
+           </div>
+           <nav>
+            <ul id="MenuItems">
+               
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+            <img src="images/glass.png" width="30px" height="30px" >
+            <img src="images/poison.png" class="menu-icon" 
+            onclick="menutoggle()">
+           </nav>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1> Quantum Luminescence<br> Mesmerizing Elixir!</h1>
+                <p> 
+                    Introducing the Quantum Luminescence Elixir, a mesmerizing concoction that transcends the boundaries of ordinary illumination. <br>
+                    Picture a vial of liquid radiance, pulsating with ethereal hues that dance between dimensions. <br>
+                    This elixir is not just a mere source of light; it's a symphony of photons choreographed in a cosmic ballet.<br></p>
+                    <a href="" class="btn">Explore Now &#9825;</a>
+            </div>
+            <div class="col-2">
+              <img src="Images/ELIX.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------- Displayed ----------->
+<div class="Displayed">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3">
+         <img src="Images/Lakers.png" >
+        </div>
+        <div class="col-3">
+            <img src="Images/Chicago_Bulls_logo.svg.png">
+        </div>
+        <div class="col-3">
+            <img src="Images/elixi.png">
+        </div>
+    </div>
+  </div>
+</div>
+ <!--------- Prod ----------->
+ <div class="small-container">
+    <h2 class="title">Products </h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/magic.png">
+            <h4>Flask of Twilight</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p>$0.50</p>
+          </div>
+                <div class="col-4">
+                    <img src="images/munchen.jpg">
+                    <h4>Philter of Souls</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                        <p>$15</p>
+                  </div>
+                  <div class="col-4">
+                    <img src="images/cold.jpg">
+                    <h4>Pandora of Reversed Time</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                        <p>$50</p>
+                  </div>
+      </div>
+         
+      <h2 class="title">Coolest Products</h2>
+      <div class="row">
+        <div class="col-4">
+            <img src="images/Celtics.png">
+            <h4>Clover</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+                <p>$500.000.000</p>
+          </div>
+                <div class="col-4">
+                    <img src="images/oz.jpg">
+                    <h4>Skins</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                        <p>$3</p>
+                  </div>
+                  <div class="col-4">
+                    <img src="images/vbucks.png">
+                    <h4>V-Bucks</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                        <p>$10</p>
+                  </div>
+      </div>
+
+
+   </div>
+
+<!----------------Offer-------------->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+<img src="Images/munchen.jpg" class="offer-img">
+            </div>
+                <div class="col-2">
+                <p> Exclusively Available on Luminescence</p>
+                <h1>Quantum Luminescence Elixir Special</h1>
+                <small> The only special ever elixir made in the whole world it's in sell don't forget to buy!</small><br>
+                <a href="" class="btn">Buy Now! &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------- testimonial ----------->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est officia rerum,<br>
+                    amet libero fuga in voluptas nostrum dolorum odit repellat maxime unde, 
+                    <br>ducimus labore laborum facere reprehenderit fugit voluptates? Odio.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+           </div>
+           <img src="images/Sauli_Niinisto.jpg">
+           <h3>Sauli Niinistö</h3>
+        </div>
+        <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est officia rerum,<br>
+                amet libero fuga in voluptas nostrum dolorum odit repellat maxime unde, 
+                <br>ducimus labore laborum facere reprehenderit fugit voluptates? Odio.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+       </div>
+       <img src="images/tarjaha.jpg">
+       <h3>Tarja Halonen</h3>
+    </div>
+    <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est officia rerum,<br>
+            amet libero fuga in voluptas nostrum dolorum odit repellat maxime unde, 
+            <br>ducimus labore laborum facere reprehenderit fugit voluptates? Odio.</p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+   </div>
+   <img src="images/mannerheim2.jpg">
+   <h3>Carl Gustaf Emil Mannerheim</h3>
+</div>
+    </div>
+</div>
+
+<!--------- brands --------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="Images/love.png">
+            </div>
+            <div class="col-5">
+                <img src="Images/love.png">
+            </div>
+            <div class="col-5">
+                <img src="Images/love.png">
+            </div>
+            <div class="col-5">
+                <img src="Images/love.png">
+            </div>
+            <div class="col-5">
+                <img src="Images/love.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------- footer --------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3> Pleaseeee do somethingg</h3>
+                <p>Broooooo shushhhh</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/munchen.jpg">
+                <p>Cooooooooool</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Stuff</h3>
+                <ul>
+                    <li>Codes</li>
+                    <li>Feedback</li>
+                    <li>FAQ</li>
+                    <li>Join</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Social</h3>
+                <ul>
+                    <li>IG</li>
+                    <li>X</li>
+                    <li>TT</li>
+                    <li>Cord</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright"> Copyright 2020 - Idk</p>
+    </div>
+</div>
+
+<!-----------js for toggle menu----->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+       if (MenuItems.style.maxHeight == "0px")
+       {
+        MenuItems.style.maxHeight = "200px";
+       }
+       else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+
+</html>
